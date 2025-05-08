@@ -1,0 +1,117 @@
+/* Importando fonte moderna */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600;700&display=swap');
+
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+}
+
+/* Corpo */
+body {
+    background: linear-gradient(135deg, #fff7ed, #f1e4d1);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Títulos */
+h1, h3 {
+    color: #3e4e36;
+    margin: 20px 0;
+    text-align: center;
+}
+
+/* Links */
+a {
+    text-decoration: none;
+    color: #b74f32;
+    font-weight: 600;
+    margin-top: 5px;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #a43e25;
+}
+
+/* Negrito com destaque */
+b {
+    text-decoration: underline;
+    color: #5d3b1e;
+}
+
+/* Botão padrão */
+.botao {
+    background-color: #d9822b;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 12px 20px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s, transform 0.2s ease-in-out;
+    width: 100%;
+    font-size: 1em;
+}
+
+.botao:hover {
+    background-color: #b36720;
+    transform: scale(1.03);
+}
+
+/* Tabela */
+table {
+    width: 90%;
+    max-width: 1000px;
+    margin: 30px auto;
+    border-collapse: collapse;
+    background-color: #ffffff;
+    border-radius: 14px;
+    overflow: hidden;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+}
+
+th {
+    background-color: #9bb291;
+    color: #ffffff;
+    padding: 14px;
+    text-transform: uppercase;
+    font-size: 0.95em;
+}
+
+td {
+    padding: 15px;
+    border-bottom: 1px solid #e4e4e4;
+    color: #3e4e36;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tr:hover {
+    background-color: #eef3ea;
+}
+
+.destaque {
+    background-color: #b5c7a3;
+    color: white;
+}
+
+/* Centralização */
+.centraliza {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 20px;
+}
